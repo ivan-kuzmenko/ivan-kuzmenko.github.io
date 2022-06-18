@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Иван Кузьменко — Резюме вэб-разработчика</title>
+
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+  <header class="l-header" id="header">
+    <nav class="nav">
+      <a href="/" class="nav__logo">Меню</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">
+              <i class='bx bxs-home nav__icon'></i>Наверх
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#profile" class="nav__link">
+              <i class='bx bxs-user nav__icon'></i>Обо мне
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#education" class="nav__link">
+              <i class='bx bxs-book nav__icon'></i>Образование
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#experience" class="nav__link">
+              <i class='bx bxs-briefcase nav__icon'></i>Опыт
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class='bx bxs-receipt nav__icon'></i>Навыки
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-grid-alt'></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main bd-container">
+    <div class="resume" id="area-cv">
+      <div class="resume__left">
+        <section class="home" id="home">
+          <div class="home__container section bd-grid">
+            <div class="home__data bd-grid">
+              <img src="./assets/img/profile.jpg" alt="" class="home__img">
+
+              <h1 class="home__title"><b>ИВАН КУЗЬМЕНКО</b></h1>
+              <h3 class="home__profession">Веб-разработчик</h3>
+            </div>
+
+            <div class="home__address bd-grid">
+              <span class="home__information">
+                <i class='bx bxs-map home__icon'></i>Москва
+              </span>
+              <a href="mailto:loudsilenceru@gmail.com?subject=Вопрос с сайта&body=Добрый день! Я хочу обсудить разработку сайта."
+                class="home__information">
+                <i class='bx bxs-envelope home__icon'></i>loudsilenceru@gmail.com
+              </a>
+            </div>
+          </div>
+
+          <i class='bx bxs-moon change-theme' title="Сменить тему" id="theme-button"></i>
+
+          <i class='bx bxs-download generate-pdf' title="Скачать PDF" id="resume-button"></i>
+
+        </section>
+
+        <section class="social section">
+          <h2 class="section-title">Соц. сети</h2>
+
+          <div class="social__container bd-grid">
+            <a href="https://vk.com/id112706699" target="_blank" class="social__link">
+              <i class='bx bxl-vk social__icon'></i> @id112706699
+            </a>
+            <a href="https://www.instagram.com/silence.ph/" target="_blank" class="social__link">
+              <i class='bx bxl-instagram-alt social__icon'></i> @silence.ph
+            </a>
+          </div>
+        </section>
+
+        <section class="profile section" id="profile">
+          <h2 class="section-title">Обо мне</h2>
+
+          <p class="profile__description">
+            Я занимаюсь разработкой лендингов, интернет-магазинов.
+          </p>
+          <p class="profile__description">
+            Коммерческий опыт в создании сайтов более 2 лет. Большую часть этого времени я занимался разработкой
+            посадочных страниц для бизнеса.
+          </p>
+          <p class="profile__description">Имею небольшой опыт в дизайне сайтов (Figma).</p>
+        </section>
+
+        <section class="education section" id="education">
+          <h2 class="section-title">Образование</h2>
+
+          <div class="education__container bd-grid">
+            <div class="education__content">
+              <div class="education__time">
+                <span class="education__rounder"></span>
+                <!-- <span class="education__line"></span> -->
+              </div>
+
+              <div class="education__data bd-grid">
+                <h3 class="education__title">Физико-технологический, Многоканальные телекоммуникационные системы</h3>
+                <span class="education__studies">«Крымский федеральный университет имени В. И. Вернадского»,
+                  Симферополь</span>
+                <span class="education__year">2012 - 2019</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+      <div class="resume__right">
+
+        <section class="experience section" id="experience">
+          <h2 class="section-title">Опыт</h2>
+
+          <div class="experience__container bd-grid">
+            <div class="experience__content">
+              <div class="experience__time">
+                <span class="experience__rounder"></span>
+                <!-- <span class="experience__line"></span> -->
+              </div>
+
+              <div class="experience__data bd-grid">
+                <h3 class="experience__title">ФРИЛАНСЕР</h3>
+                <span class="experience__company">сентябрь 2019 - декабрь 2021 гг.</span>
+                <!-- <p class="experience__description"> -->
+                <ul class="experience__description">
+                  <li>Я занимаюсь:</li>
+                  <li>- разработкой, созданием посадочных страниц для бизнеса, сайтов-визиток, небольших
+                    интернет-магазинов;</li>
+                  <li>- адаптацией существующего сайта под мобильные устройства (мобильная версия);</li>
+                  <li>- созданием дизайна сайта на основе других примеров;</li>
+                  <li>- разработкой небольших одностраничных приложений на основе фреймворка Vue.</li>
+                </ul>
+                <!-- </p> -->
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="skills section" id="skills">
+          <h2 class="section-title">Навыки</h2>
+
+          <div class="skills__content bd-grid">
+            <ul class="skills__data">
+              <li class="skills__name">
+                <span class="skills__circle"></span>PHP
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span>Laravel
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span>HTML
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span>JavaScript
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span>jQuery
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span>БЭМ
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span>CSS
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span>SCSS
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span>Figma
+              </li>
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span>Wordpress
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span>MySQL
+              </li>
+              <li class="skills__name">
+                <span class="skills__circle"></span>Vue.js
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="languages section">
+          <h2 class="section-title">Языки</h2>
+
+          <div class="languages__container">
+            <ul class="languages__content bd-grid">
+              <li class="languages__name">
+                <span class="languages__circle"></span>Русский
+              </li>
+              <li class="languages__name">
+                <span class="languages__circle"></span>Украинский — B2 — Средне-продвинутый
+              </li>
+              <li class="languages__name">
+                <span class="languages__circle"></span>Английский — B1 — Средний
+              </li>
+            </ul>
+          </div>
+        </section>
+
+
+        <section class="interests section">
+          <h2 class="section-title">Интересы</h2>
+
+          <div class="interests__container bd-grid">
+            <div class="interests__content">
+              <i class='bx bx-headphone interests__icon'></i>
+              <span class="interests__name">Музыка</span>
+            </div>
+
+            <div class="interests__content">
+              <i class='bx bxs-plane-alt interests__icon'></i>
+              <span class="interests__name">Путешествия</span>
+            </div>
+
+            <div class="interests__content">
+              <i class='bx bxs-camera interests__icon'></i>
+              <span class="interests__name">Фото</span>
+            </div>
+
+            <div class="interests__content">
+              <i class='bx bx-dumbbell interests__icon'></i>
+              <span class="interests__name">Фитнес</span>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  <a href="#" class="scrolltop" id="scroll-top">
+    <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+  </a>
+
+  <script src="./assets/js/html2pdf.bundle.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
